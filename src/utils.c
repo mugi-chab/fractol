@@ -57,5 +57,5 @@ int	ft_colors(int iter, t_fractal *f)
 	if (iter == f->max_iter)
 		return (0x03001CFF);
 	else
-		return (color_s[(f->color % 5)] + iter * 0x06060000);
+		return (color_s[(f->color)] + iter * 0x06060000);
 }

@@ -29,8 +29,8 @@ $(NAME):	$(OBJS)
 			$(CC) $(CFLAGS) $(OBJS) $(HEADERS) $(LIBS) -o $(NAME)
 
 clean:
-			@make -C $(MLX42) cleans
-			@make -C $(LIBFT) fclean --silent
+			@make -C $(MLX42) clean
+			@make -C $(LIBFT) clean --silent
 			$(RM) $(OBJS)
 
 fclean:		
